@@ -1,0 +1,69 @@
+div,h1,h2,h3,h4,h5,p,ul,li,a{
+  margin:0;
+}
+h2,h3,h4,footer p {
+  text-align: center;
+}
+body {  font-family: sans-serif;
+  padding: 20px;
+  /* background properties */
+  background-image: url(picture/chunhei.jpg);
+  background-repeat: repeat;
+  background-position: 50% center;
+}
+section {  font-family: sans-serif;
+    padding: 20px;
+    /* background properties */
+    background-image: url(picture/z1.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    background-size: 97.5%;
+    height: 750px;
+}
+section ul p {
+  text-align: center;
+  font-size: 300%;
+  padding-top: 100px;
+  color:white;
+}
+.W {
+  width: 250px;
+  height: 350px;
+}
+.S {
+  width: 250px;
+  height: 350px;
+}
+.X {
+  width: 250px;
+  height: 350px;
+}
+.C {
+  width: 250px;
+  height: 350px;
+}
+.content{
+  width: 470px;
+  height:340px;
+  overflow: hidden;
+  position: relative;
+}
+.img-hover{
+  width: 470px;
+  height:340px;
+  background:blanchedalmond;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition-duration: 1s;
+  display: flex;
+  justify-content: space-around;
+}
+.img-hover:hover{
+  opacity: 0.5;
+  transition-duration: 1s;   
+}
+.img-hover .btn{
+position: absolute;
+top:50%;
+}
